@@ -15,17 +15,6 @@ jest.mock('../../components/FeatureCard/FeatureCard', () => {
   ))
 })
 
-// jest.mock('../../components/FeatureCard/FeatureCard', () => ({
-//   FeatureCard: (props: any) => <div data-testid="user-card-mock">Feature Card Mock</div>
-// }))
-
-// jest.mock('../../components/FeatureCard/FeatureCard', () => {
-//   const CardExample = () => <div data-testid="card-mock">Mocked Chat Component</div>
-//   return CardExample
-// })
-
-// jest.mock('../../components/FeatureCard/FeatureCard', () => () => <div>Mocked Child Component</div>)
-
 const mockAppState = {
   frontendSettings: {
     ui: {
