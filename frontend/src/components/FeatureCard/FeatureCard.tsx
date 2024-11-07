@@ -76,5 +76,4 @@ const FeatureCard = ({ icon, title, description, urlSuffix }: FeatureCardProps) 
     </div>
   );
 };
-
 export default FeatureCard

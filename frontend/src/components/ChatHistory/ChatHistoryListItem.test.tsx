@@ -171,7 +171,6 @@ describe('ChatHistoryListItemCell', () => {
     fireEvent.keyDown(input, { key: 'Enter' });
   
     //await waitFor(() => expect(historyRename).toHaveBeenCalledWith(mockConversation.id, newTitle));
-  
     fireEvent.mouseEnter(screen.getByLabelText('chat history item'));
     expect(screen.getByText('Error: Enter a new title to proceed.')).toBeInTheDocument();
   });

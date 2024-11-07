@@ -58,7 +58,6 @@ const renderComponent = (state = mockState) => {
     );
   };
   
-
 describe('ChatHistoryPanel', () => {
   afterEach(() => {
     jest.clearAllMocks();
