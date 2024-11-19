@@ -391,7 +391,7 @@ export const ChatHistoryListItemGroups: React.FC<ChatHistoryListItemGroupsProps>
                 onRenderCell={onRenderCell}
                 className={styles.chatList}
               />
-              <div ref={observerTarget} />
+              <div role="scrollDiv" ref={observerTarget} />
               <Separator
                 styles={{
                   root: {
