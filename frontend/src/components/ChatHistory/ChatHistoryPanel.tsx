@@ -139,6 +139,7 @@ export function ChatHistoryPanel(_props: ChatHistoryPanelProps) {
             />
             <CommandBarButton
               iconProps={{ iconName: 'Cancel' }}
+              data-testid="toggle-chat-history-button"
               title={'Hide'}
               onClick={handleHistoryClick}
               aria-label={'hide button'}
